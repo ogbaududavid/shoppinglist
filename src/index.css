@@ -6,8 +6,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+main p{
+  text-align: center;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+header h1{
+  margin: 0;
+}
+
+main ul li{
+  background: rgb(214, 214, 214);
+  margin: 2px;
+  padding: 5px;
+  
+}
+
+main ul li label:focus {
+  border-bottom: 5px solid green;
+  z-index: 2;
+}
+
+footer{
+  background: blue;
+  color: white;
+  padding: 5px;
+  text-align: center;
 }
